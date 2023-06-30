@@ -62,3 +62,8 @@ aoutoqw.xyz##center > a
 aoutoqw.xyz##.wpadcenter-ad-container
 aoutoqw.xyz###alf_continue_captcha:remove-attr(disabled)
 aoutoqw.xyz###alf_continue_captcha:style(cursor: pointer !important; opacity: 1 !important;)
+
+oploverz.*##+js(nostif, popup)
+oploverz.*###overplay
+*.gif$domain=oploverz.*,image
+*$script,3p,denyallow=cloudflare.com|disqus.com|disquscdn.com|facebook.com|fastlylb.net|fbcdn.net|facebook.net|googleapis.com|jsdelivr.net|statically.io|githack.com|gitcdn.xyz|gitcdn.link|gitcdn.herokuapp.com|arc.io|fluidplayer.com,domain=oploverz.*

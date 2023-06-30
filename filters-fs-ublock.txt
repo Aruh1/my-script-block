@@ -32,7 +32,7 @@ egao.in##+js(set, window.showAdss, true)
 kazefuri.net##+js(href-sanitizer, a[href^="https://www.adtival.network/"][href*="&url="], ?url)
 
 ! khaddavi.net skip countdown
-khaddavi.net,jrtekno.com##+js(nano-sib)
+khaddavi.net,jrtekno.com,ayobelajarbareng.com##+js(nano-sib)
 
 ! tonanmedia.my.id skip countdown & adb
 tonanmedia.my.id##+js(set, setTimer, 0)

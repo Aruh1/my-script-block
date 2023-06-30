@@ -1,0 +1,29 @@
+/wpsafelink.js|$script
+/safelink.js|$script
+
+! yurasu.xyz, isekaipalace skip countdown & anti adblock
+yurasu.xyz##+js(set, showAds, true)
+blog.yurasu.xyz##+js(rpnt, script, /timerSeconds: \d+/, timerSeconds: 0)
+blog.yurasu.xyz##+js(nano-sib)
+isekaipalace.com##+js(rpnt, script, /timerSeconds: \d+/, timerSeconds: 0)
+isekaipalace.com##+js(nano-sib)
+
+! doronime
+doroni.me##+js(set, window.showAdss, true)
+egao.in##+js(set, window.showAdss, true)
+@@||doroni.me^$script,1p
+-cpm-ads.$badfilter
+@@||egao.in^$ghide
+
+! kazefuri.net sanitize url
+kazefuri.net##+js(href-sanitizer, a[href^="https://www.adtival.network/"][href*="&url="], ?url)
+
+! khaddavi.net skip countdown
+khaddavi.net,jrtekno.com##+js(nano-sib)
+
+! tonanmedia.my.id skip countdown & adb
+tonanmedia.my.id##+js(set, setTimer, 0)
+tonanmedia.my.id##+js(nano-sib)
+tonanmedia.my.id##+js(set, showAds, true)
+! Out
+@@||cdn.jsdelivr.net/gh/idnulleds/blog@main/Javascript/safelink.js$script,domain=tonanmedia.my.id

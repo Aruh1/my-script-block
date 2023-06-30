@@ -2,6 +2,7 @@
 /safelink.js|$script
 batchkun.com##+js(aopw, auto_safelink)
 koenime.top,lendrive.web.id##+js(aopr, btoa)
+||cdn.wendycode.com/blogger/globalAdb.js$script
 
 ! yurasu.xyz, isekaipalace skip countdown & anti adblock
 yurasu.xyz##+js(set, showAds, true)

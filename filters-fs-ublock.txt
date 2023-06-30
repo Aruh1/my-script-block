@@ -1,5 +1,7 @@
 /wpsafelink.js|$script
 /safelink.js|$script
+batchkun.com##+js(aopw, auto_safelink)
+koenime.top,lendrive.web.id##+js(aopr, btoa)
 
 ! yurasu.xyz, isekaipalace skip countdown & anti adblock
 yurasu.xyz##+js(set, showAds, true)
@@ -25,5 +27,12 @@ khaddavi.net,jrtekno.com##+js(nano-sib)
 tonanmedia.my.id##+js(set, setTimer, 0)
 tonanmedia.my.id##+js(nano-sib)
 tonanmedia.my.id##+js(set, showAds, true)
-! Out
+! With
 @@||cdn.jsdelivr.net/gh/idnulleds/blog@main/Javascript/safelink.js$script,domain=tonanmedia.my.id
+
+! kusonime
+kusonime.com##+js(set, window.showAds, true)
+
+! mitedrive.com skip countdown & popups
+mitedrive.com##+js(nano-sib)
+mitedrive.com##+js(window.open-defuser)

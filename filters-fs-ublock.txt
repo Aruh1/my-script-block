@@ -13,6 +13,8 @@ pinloker.com,sekilastekno.com##.separator > a[\@click="scroll"][target="_blank"]
 pinloker.com##+js(no-fetch-if, adsbygoogle)
 pinloker.com,sekilastekno.com###teaser2
 sekilastekno.com###content:has(#teaser2) .entry-content > figure, h3, h4, ol, p, ul
+woowebtools.com##+js(set, setTimer, 0)
+woowebtools.com##+js(nano-sib)
 
 ! yurasu.xyz, isekaipalace skip countdown & anti adblock
 yurasu.xyz##+js(set, showAds, true)

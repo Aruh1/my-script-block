@@ -15,13 +15,20 @@ pinloker.com,sekilastekno.com###teaser2
 sekilastekno.com###content:has(#teaser2) .entry-content > figure, h3, h4, ol, p, ul
 woowebtools.com##+js(set, setTimer, 0)
 woowebtools.com##+js(nano-sib)
+woowebtools.com##body > div[style]:has-text(Ads)
+||woowebtools.com/*.png$image
+||https://cdn.jsdelivr.net/npm/disable-devtool.$badfilter
+/js/guard.$badfilter
+info.gambar.pro##+js(set, showAds, true)
+info.gambar.pro##+js(rpnt, script, /timerSeconds: \d+/, timerSeconds: 0)
+info.gambar.pro##+js(nano-sib, time)
 
 ! yurasu.xyz, isekaipalace skip countdown & anti adblock
 yurasu.xyz##+js(set, showAds, true)
 blog.yurasu.xyz##+js(rpnt, script, /timerSeconds: \d+/, timerSeconds: 0)
 blog.yurasu.xyz##+js(nano-sib)
 isekaipalace.com##+js(rpnt, script, /timerSeconds: \d+/, timerSeconds: 0)
-isekaipalace.com##+js(nano-sib)
+isekaipalace.com##+js(nano-sib, time)
 isekaipalace.com##+js(set, window.showAds, true)
 
 ! doronime
@@ -32,7 +39,7 @@ egao.in##+js(set, window.showAdss, true)
 @@||egao.in^$ghide
 
 ! kazefuri.net sanitize url
-kazefuri.net##+js(href-sanitizer, a[href^="https://www.adtival.network/"][href*="&url="], ?url)
+kazefuri.net,info.gambar.pro##+js(href-sanitizer, a[href^="https://www.adtival.network/"][href*="&url="], ?url)
 
 ! khaddavi.net skip countdown
 khaddavi.net,jrtekno.com,ayobelajarbareng.com##+js(nano-sib)
@@ -70,3 +77,4 @@ oploverz.*##+js(nostif, popup)
 oploverz.*###overplay
 *.gif$domain=oploverz.*,image
 *$script,3p,denyallow=cloudflare.com|disqus.com|disquscdn.com|facebook.com|fastlylb.net|fbcdn.net|facebook.net|googleapis.com|jsdelivr.net|statically.io|githack.com|gitcdn.xyz|gitcdn.link|gitcdn.herokuapp.com|arc.io|fluidplayer.com,domain=oploverz.*
+

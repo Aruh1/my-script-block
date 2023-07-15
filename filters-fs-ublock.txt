@@ -47,8 +47,9 @@ khaddavi.net,jrtekno.com,ayobelajarbareng.com##+js(nano-sib)
 ! tonanmedia.my.id skip countdown & adb
 tonanmedia.my.id##+js(set, setTimer, 0)
 tonanmedia.my.id##+js(nano-sib)
-tonanmedia.my.id##+js(set, set-constant, showAds, true)
+tonanmedia.my.id##+js(set, showAds, true)
 tonanmedia.my.id##.smokeddlrh > .adsbygoogle:style(display: block !important)
+@@||tonanmedia.my.id^$ghide
 ! With
 @@||cdn.jsdelivr.net/gh/idnulleds/blog@main/Javascript/safelink.js$script,domain=tonanmedia.my.id
 
